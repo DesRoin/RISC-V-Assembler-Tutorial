@@ -7,6 +7,9 @@
 #Unignore all Directories
 !*/
 
+#Unignore makefuke
+!makefile
+
 # Binaries for programs and plugins
 *.exe
 *.exe~
