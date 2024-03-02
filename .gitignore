@@ -10,6 +10,10 @@
 #Unignore makefuke
 !makefile
 
+#Unignore Chapter 3 build files
+!buildd
+!buildr
+
 # Binaries for programs and plugins
 *.exe
 *.exe~
