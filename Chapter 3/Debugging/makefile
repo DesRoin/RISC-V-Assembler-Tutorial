@@ -1,0 +1,11 @@
+OBJS = simple.o
+ifdef  DEBUG
+DEBUGFLGS = -g
+else
+DEBUGFLGS =
+endif
+
+%.o : %.asm
+	as $(DEBUGFLGS) $< -o $@
+simple: $(OBJS)
+	ld -o   simple $(OBJS)
